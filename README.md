@@ -1,4 +1,3 @@
-![Pasted image 20230809034534](https://github.com/kingsmandralph/Ethereum-Node-Validator/assets/95085212/2038f66b-afa3-416e-a34a-8b4a34caa1ae)
 # Step-By-Step Guide on setting up and running an Ethereum validator node using Google Cloud Infrastructure
 
 An Ethereum node validator is a component within the Ethereum network that participates in the Ethereum 2.0 consensus mechanism, specifically in the Proof of Stake (PoS) protocol. Validators play a crucial role in validating transactions, creating new blocks, and securing the network by staking a certain amount of cryptocurrency (in this case, ETH) as collateral.
@@ -384,7 +383,8 @@ sudo systemctl restart fail2ban
 For the purpose of this guide we will be using Nethermind as our execution client. However there are other available execution clients like Geth, Besu and Erigon. 
 **Execution Client Diversity** - To strengthen Ethereum's resilience against potential attacks or consensus bugs, it's best practice to run a minority client in order to increase client diversity. Check out the latest distribution of execution clients here: [Client Diversity](https://clientdiversity.org/)
 
-![[Pasted image 20230808235705.png]]
+![Pasted image 20230808235705](https://github.com/kingsmandralph/Ethereum-Node-Validator/assets/95085212/f57d3609-1b23-4ba6-b22b-88a6df1ddf8f)
+
 Client Diversity (Reference : [CoinCashew](https://www.coincashew.com/coins/overview-eth/guide-or-how-to-setup-a-validator-on-eth2-mainnet#2-signup-to-be-a-validator-at-the-launchpad))
 
 **Nethermind** is built on .NET core. Nethermind makes integration with existing infrastructures simple, without losing sight of stability, reliability, data integrity, and security.
@@ -514,7 +514,8 @@ Based on the provided hardware requirements, which include a modern multi-core p
 Ultimately, the choice between Prysm and Teku depends on your specific preferences, technical expertise, and whether you prioritize resource efficiency and stability (Prysm) or enterprise-oriented features (Teku) for your Ethereum validator node setup. Whichever client you choose, it's important to follow the official documentation and best practices to ensure a secure and successful deployment.
 
 
-![[Pasted image 20230809001951.png]]
+![Pasted image 20230809001951](https://github.com/kingsmandralph/Ethereum-Node-Validator/assets/95085212/5c89b3ac-8542-460a-a86a-6b6fa54da207)
+
 Consensus / Execution Diversity (Reference : [CoinCashew](https://www.coincashew.com/coins/overview-eth/guide-or-how-to-setup-a-validator-on-eth2-mainnet#2-signup-to-be-a-validator-at-the-launchpad))
 
 # Prysm
@@ -1221,27 +1222,32 @@ Now you can access Grafana on your local machine by pointing a web browser to [L
 
 #### Example of Grafana Dashboards for Prysm consensus client
 
-![[Pasted image 20230809033952.png]]
+![Pasted image 20230809033952](https://github.com/kingsmandralph/Ethereum-Node-Validator/assets/95085212/c38040cb-daac-4b64-9972-65e211766216)
+
 Reference: [Github](https://github.com/GuillaumeMiralles/prysm-grafana-dashboard)
 
-![[Pasted image 20230809034049.png]]
+![Pasted image 20230809034049](https://github.com/kingsmandralph/Ethereum-Node-Validator/assets/95085212/d86d408e-006c-474b-883d-20e109a771dc)
+
 Reference: [Github](https://github.com/metanull-operator/eth2-grafana/)
+
 JSON download link: [Github](https://github.com/metanull-operator/eth2-grafana/raw/master/eth2-grafana-dashboard-single-source.json)
 
 #### Example of Grafana Dashboards for Nethermind execution client
 
-![[Pasted image 20230809034323.png]]
+![Pasted image 20230809034323](https://github.com/kingsmandralph/Ethereum-Node-Validator/assets/95085212/3d921bdc-eebd-4297-b854-1c119d60bee3)
+
 Reference: [Github](https://github.com/NethermindEth/metrics-infrastructure)
 
 #### Example of Node-Exporter Dashboard
 **General system monitoring**
 Includes: CPU, memory, disk IO, network, temperature and other monitoring metrics.
 
-![[Pasted image 20230809034514.png]]
+![Pasted image 20230809034514](https://github.com/kingsmandralph/Ethereum-Node-Validator/assets/95085212/36f7c67f-b5c4-471b-93d2-19913a370939)
+
 Reference: [Grafana Node Exporter Dashboard](https://grafana.com/grafana/dashboards/11074)
 
-![[Pasted image 20230809034534.png]]![Uploading Pasted image 20230809034534.png…]()
 
+![Pasted image 20230809034534](https://github.com/kingsmandralph/Ethereum-Node-Validator/assets/95085212/2038f66b-afa3-416e-a34a-8b4a34caa1ae)
 Reference: [Grafana Node Exporter Dashboard](https://grafana.com/grafana/dashboards/11074)
 
 #### Setting up Alert Notifications
