@@ -1445,4 +1445,6 @@ c. [Prysm v1.0 vs Prysm Pyrmont](https://discourse.dappnode.io/t/prysm-v1-0-vs-p
 d. [Prometheus Documentation](https://prometheus.io/docs/introduction/overview/)
 e. [Grafana Documentation](https://grafana.com/docs/grafana/latest/getting-started/getting-started-prometheus/)
 f. [Setup a validator on eth2 mainnet](https://www.coincashew.com/coins/overview-eth/guide-or-how-to-setup-a-validator-on-eth2-mainnet#2-signup-to-be-a-validator-at-the-launchpad)
+
+#### Link to Substack Article: [Substack Article](https://open.substack.com/pub/ekeneraphael/p/step-by-step-guide-on-setting-up?r=1rgtae&utm_campaign=post&utm_medium=web)
 #### *Hope this guide helped you a lot..... *
